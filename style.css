@@ -108,6 +108,11 @@ section{
     font-family: 'comic sans ms';
 }
 
+span{
+  color: cadetblue;
+  font-family: 'comic sans ms';
+}
+
 .nama-right img{
     width: 70%;
     height: 100%;
