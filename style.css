@@ -72,15 +72,22 @@ nav ul li a:hover{
     filter: drop-shadow(0px 0px 5px #000);
 }
 
+/* section */
+
 section{
-    margin: auto;
-    margin-bottom: 50px;
-    padding-left: 50px;
-    background-color: white;
-    padding: 100px 20px;
-    height: 100vh; 
-    text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  background-color: white;
+  padding: 100px;
+  /* height: 100vh;  */
+  text-align: center;
+  min-height: fit-content;
 }
+
+
+
+/* section home */
 
 #home{
     height: 720px;
@@ -108,19 +115,14 @@ section{
     border-radius: 50% 20% 50%;
 }
 
-.nama-right{
-}
+/* section about */
 
 #about h1{
     width: 100%;
     align-items: center;
-    padding-top: 50px;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'brush script mt';
-    padding-left: 75px;
 }
-
-/* Section about */
 
 #about{
     display: grid;
@@ -208,11 +210,11 @@ section{
 
 }
 
-/* section Skill */
+/* section */
 
 #education{
   display:flex;
-  max-block-size: 100%;
+  max-block-size: 75%;
 }
 
 .column{
@@ -223,6 +225,7 @@ section{
     gap: 2.5rem;
     justify-content: space-around;
     margin: auto;
+    height: auto;
     
 }
 
@@ -278,12 +281,11 @@ section{
 
 @media (max-width: 768px) {
   .column {
-      flex-direction: column; /* Tumpuk elemen secara vertikal */
+      flex-direction: column; 
   }
 
   .edu {
-      width: 100%; /* Elemen akan memenuhi lebar layar pada perangkat kecil */
-      margin-bottom: 20px;
+      width: 100%; 
   }
 }
 
@@ -291,7 +293,7 @@ section{
 
 #experience {
     display: flex;
-    height: 700px;
+    height: auto;
     max-width: 100%;
 }
 
@@ -303,7 +305,7 @@ section{
 }
 
 .content-experience{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     flex-direction: column;
 }
@@ -319,7 +321,7 @@ section{
 
     }
 .details-container{
-    flex: 1 1 30%;
+    /* flex: 1 1 30%; */
     width: 33.33%;
     height: 300px;
     width: 375px;
@@ -399,7 +401,6 @@ article .icon {
   
 .project {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
   }
@@ -418,6 +419,7 @@ article .icon {
   }
   
 .project-card img {
+    padding-top: 30px;
     width: 50px;
     height: auto;
   }
@@ -428,27 +430,13 @@ article .icon {
   
 .project-info h3 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
   
 .project-info p {
     font-size: 1rem;
     margin-bottom: 20px;
     color: #666;
-  }
-  
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-.btn:hover {
-    background-color: #2980b9;
   }
   
 
