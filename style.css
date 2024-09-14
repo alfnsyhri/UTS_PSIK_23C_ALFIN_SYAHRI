@@ -605,7 +605,6 @@ textarea {
   max-width: 350px;
   text-align: left;
   transition: transform 0.3s ease;
-  height: 450px;
 }
 
 .blog-post:hover {
